@@ -23,7 +23,6 @@
     "@fastify/cors": "^9.0.1",
     "@prisma/client": "^5.12.1",
     "fastify": "^4.26.2",
-    "mongodb": "^6.5.0",
     "tsup": "^8.0.2",
     "tsx": "^4.7.2"
   }
