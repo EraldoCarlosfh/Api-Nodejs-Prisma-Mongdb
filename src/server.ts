@@ -2,7 +2,7 @@ import Fastify from "fastify";
 import cors from "@fastify/cors";
 import { routes } from "./router";
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3333;
 const app = Fastify({logger: true})
 app.setErrorHandler((error, request, reply) => {
     reply.code(400).send({message: error.message})
